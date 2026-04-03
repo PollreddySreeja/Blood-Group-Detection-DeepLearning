@@ -1,10 +1,6 @@
 # Blood-Group-Detection-DeepLearning
 Deep learning-based blood group classification from agglutination images using CNN and Firefly Optimization with Django deployment
 
-This project is a deep learning-based system that classifies human blood groups (A, B, AB, O) from agglutination images.  
-It uses a Convolutional Neural Network (CNN) along with Firefly Optimization for improved performance.  
-The system also includes a Django-based web interface for real-time prediction.
-
 ## Features
 
 - Blood group classification from images
@@ -15,7 +11,9 @@ The system also includes a Django-based web interface for real-time prediction.
 - Upload image and get instant result
 - Sample test images included
 
+## 📁 Project Structure
 
+```
 ├── Blood/ # Django project settings
 
 ├── BloodApp/ # Main application
@@ -30,11 +28,12 @@ The system also includes a Django-based web interface for real-time prediction.
 ├── manage.py
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
-## Prerequisites
+## ⚙️ Prerequisites
 
+Ensure the following are installed on your system:
 - Python 3.x
 - pip
 - Virtual environment (optional but recommended)
@@ -49,22 +48,28 @@ The system also includes a Django-based web interface for real-time prediction.
 
 
 2. Navigate to project folder:
+```
 cd Blood-Group-Detection-DeepLearning
+ ```
 
-
-3. Install dependencies:
+4. Install dependencies:
+```
 pip install -r requirements.txt
-
+```
 
 ---
 
 ## Running the Application
 
 1. Start the Django server:
+   ```
    python manage.py runserver
-2. Open browser:
+   ```
+3. Open browser:
+      ```
    (http://127.0.0.1:8000/)
-3. Upload an image and get prediction.
+         ```
+5. Upload an image and get prediction.
 
 ## Model Details
 
