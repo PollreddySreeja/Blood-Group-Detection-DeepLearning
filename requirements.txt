@@ -1,0 +1,17 @@
+numpy
+pandas
+matplotlib
+keras
+tensorflow
+h5py
+protobuf
+scikit-learn
+seaborn
+Django
+opencv-python
+opencv-contrib-python
+PyMySQL
+
+
+
+ 
