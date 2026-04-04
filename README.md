@@ -40,7 +40,7 @@ BloodApp/            # Main application
 ├── admin.py
 ├── apps.py
 
-model/               # Trained model files (.h5, .npy)
+model/               # Trained model files (e.g., .h5, .npy)
 testimages/          # Sample test images
 
 manage.py
