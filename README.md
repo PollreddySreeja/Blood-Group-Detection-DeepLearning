@@ -51,12 +51,20 @@ README.md
 
 ## ⚙️ Prerequisites
 
-Ensure the following are installed on your system:
+Make sure the following are installed on your system:
 
 - Python 3.x
 - pip (Python package manager)
-- Core libraries: TensorFlow, Keras, OpenCV, NumPy, Matplotlib, Django, Scikit-learn
 - Virtual environment (optional but recommended)
+
+Required libraries:
+- TensorFlow
+- Keras
+- OpenCV
+- NumPy
+- Matplotlib
+- Django
+- Scikit-learn
 ---
 
 ## 🛠️ Setup Instructions
