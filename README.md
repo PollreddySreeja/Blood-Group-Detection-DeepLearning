@@ -57,7 +57,7 @@ Make sure the following are installed on your system:
 - pip (Python package manager)
 - Virtual environment (optional but recommended)
 
-Required libraries:
+Required python libraries:
 - TensorFlow
 - Keras
 - OpenCV
@@ -68,19 +68,26 @@ Required libraries:
 ---
 
 ## 🛠️ Setup Instructions
-### Backend (Django)
 
-1. Open a terminal and navigate to the project directory:
-$ git clone
+### 🔧 Backend (Django Setup)
+
+1. Clone the repository:
+  ``` 
+git clone
 https://github.com/PollreddySreeja/Blood-Group-Detection-DeepLearning.git
-$ cd Blood-Group-Detection-DeepLearning
-
-
-2. Install dependencies:
+cd Blood-Group-Detection-DeepLearning
+```
+2. Create and activate virtual environment:
+``` 
+python -m venv venv
+venv\Scripts\activate   # Windows
+# OR
+source venv/bin/activate   # Mac/Linux
+``` 
+3. Install dependencies:
 ```
 pip install -r requirements.txt
 ```
-
 ---
 
 ## 🗄️ Database Setup
@@ -88,9 +95,9 @@ pip install -r requirements.txt
 If using XAMPP for MySQL:
 
 1. Open XAMPP Control Panel  
-2. Start Apache and MySQL services  
+2. Start MySQL service (Apache is optional unless specifically configured) 
 3. Ensure MySQL is running  
-4. Update database credentials in Django settings if required  
+4. Update database settings in settings.py if required  
 
 Note: If using SQLite, this step can be skipped.
 
