@@ -8,10 +8,12 @@ This project presents an end-to-end deep learning system for automated blood gro
 - [Prerequisites](#prerequisites)
 - [Setup Instructions](#setup-instructions)
   - [Backend](#backend)
-- [Running the Application](#running-the-application)
-- [Dataset](#dataset)
+- [Running the Application](#running-the-application) 
 - [Performance Metrics](#performance-metrics)
+- [Model Details](#model-details)
+- [Dataset](#dataset)
 - [Troubleshooting](#troubleshooting)
+- [Future Scope](#future-scope)
 - [License](#license)
 
   
@@ -50,7 +52,7 @@ Ensure the following are installed on your system:
 
 - Python 3.x
 - pip (Python package manager)
-- Required libraries: NumPy, OpenCV, Scikit-learn, Keras, TensorFlow, Matplotlib, Django
+- Core libraries: TensorFlow, Keras, OpenCV, NumPy, Matplotlib, Django, Scikit-learn
 - Virtual environment (optional but recommended)
 ---
 
@@ -58,9 +60,11 @@ Ensure the following are installed on your system:
 ### Backend (Django)
 
 1. Open a terminal and navigate to the project directory:
-```
+$
+git clone
+https://github.com/PollreddySreeja/Blood-Group-Detection-DeepLearning.git
 cd Blood-Group-Detection-DeepLearning
- ```
+$
 
 2. Install dependencies:
 ```
@@ -100,22 +104,22 @@ Note: If using SQLite, this step can be skipped.
 - F1-score: 98.32%
   ```
 
- ## 📊 Dataset
-
-- Contains agglutination images of blood samples
-- Approximately 200+ images
-- Four classes: A, B, AB, O
-- Only sample images are included in this repository
-
 ---
- ## 🧠 Model Details
-```
+## 🧠 Model Details
+
 - Model: Convolutional Neural Network
 - Input size: 32×32 images
 - Classes: A, B, AB, O
 - Optimization: Firefly Optimization Algorithm
 - Framework: TensorFlow / Keras
-```
+
+## 📊 Dataset
+
+- Contains agglutination images of blood samples
+- Approximately 200+ images
+- Four classes: A, B, AB, O
+- Only sample images are included in this repository
+  
 ## 🛠️ Troubleshooting
 
 - Ensure all dependencies are installed correctly
