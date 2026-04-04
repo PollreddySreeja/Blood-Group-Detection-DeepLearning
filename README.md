@@ -29,20 +29,23 @@ This project presents an end-to-end deep learning system for automated blood gro
 ## 📁 Project Structure
 
 ```
-├── Blood/ # Django project settings
+Blood/               # Django project settings
 
-├── BloodApp/ # Main application
-│ ├── templates/ # HTML files
-│ ├── static/ # CSS and images
-│ ├── views.py
-│ ├── models.py
-│ ├── urls.py
-│
-├── model/ # Trained model and data files
-├── testImages/ # Sample test images
-├── manage.py
-├── requirements.txt
-└── README.md
+BloodApp/            # Main application
+├── templates/       # HTML files
+├── static/          # CSS and images
+├── views.py
+├── models.py
+├── urls.py
+├── admin.py
+├── apps.py
+
+model/               # Trained model files (.h5, .npy)
+testimages/          # Sample test images
+
+manage.py
+requirements.txt
+README.md
 ```
 
 
