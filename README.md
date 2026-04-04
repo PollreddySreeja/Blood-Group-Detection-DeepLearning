@@ -107,11 +107,11 @@ Note: If using SQLite, this step can be skipped.
    ```
    python manage.py runserver
    ```
-3. Open browser:
+3. Open in browser:
     ```
    http://127.0.0.1:8000/
    ```
-5. Upload an image and get prediction.
+5. Upload an image and get the predicted blood group.
 
 ## 📈 Performance Metrics
  ```
