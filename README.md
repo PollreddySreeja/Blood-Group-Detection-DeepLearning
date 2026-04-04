@@ -150,7 +150,6 @@ Note: If using SQLite, this step can be skipped.
 - Enable real-time blood group detection using a camera
 - Deploy the system as a Mobile application 
 - Utilize a larger dataset to further improved model accuracy
-
   This system reduces dependency on manual laboratory interpretation and demonstrates the potential of AI in medical image analysis.
 
 ## 📄 License
