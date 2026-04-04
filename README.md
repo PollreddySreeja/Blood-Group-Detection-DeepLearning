@@ -125,34 +125,34 @@ Note: If using SQLite, this step can be skipped.
 ## 🧠 Model Details
 
 - Model: Convolutional Neural Network
-- Input size: 32×32 images
+- Input size: 32×32 pixels
 - Classes: A, B, AB, O
 - Optimization: Firefly Optimization Algorithm
-- Framework: TensorFlow / Keras
+- Framework: TensorFlow (Keras API)
 
 ## 📊 Dataset
 
 - Contains agglutination images of blood samples
-- Approximately 200+ images
+- Approximately 200+ labeled images
 - Four classes: A, B, AB, O
-- Only sample images are included in this repository
+- Only a subset of sample images are included in this repository
   
 ## 🛠️ Troubleshooting
 
-- Ensure all dependencies are installed correctly
-- Check if the correct Python version is used
-- Verify model files are present in the model folder
+- Ensure all required dependencies are installed correctly
+- Verify that the correct Python version is being used
+- Verify that model files are present in the 'model/' directory
 - Make sure the Django server is running before accessing the application
 
 ## Future Scope
 
-- Include Rh factor classification (positive/negative)
-- Real-time detection using camera
-- Mobile application deployment
-- Larger dataset for improved accuracy
+- Extend classification to include Rh factor (positive/negative)
+- Enable real-time blood group detection using a camera
+- Deploy the system as a Mobile application 
+- Utilize a larger dataset to further improved model accuracy
 
   This system reduces dependency on manual laboratory interpretation and demonstrates the potential of AI in medical image analysis.
 
 ## 📄 License
 
-This project is for educational purposes.
+This project is licensed under the MIT License.
