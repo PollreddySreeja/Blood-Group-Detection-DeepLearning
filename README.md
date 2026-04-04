@@ -60,11 +60,10 @@ Ensure the following are installed on your system:
 ### Backend (Django)
 
 1. Open a terminal and navigate to the project directory:
-$
-git clone
+$ git clone
 https://github.com/PollreddySreeja/Blood-Group-Detection-DeepLearning.git
-cd Blood-Group-Detection-DeepLearning
-$
+$ cd Blood-Group-Detection-DeepLearning
+
 
 2. Install dependencies:
 ```
