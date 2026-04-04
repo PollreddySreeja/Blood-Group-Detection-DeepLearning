@@ -1,15 +1,28 @@
 # Blood-Group-Detection-DeepLearning
-Deep learning-based blood group classification from agglutination images using CNN and Firefly Optimization with Django deployment
+This project presents an end-to-end deep learning system for automated blood group classification from agglutination images using CNN and Firefly Optimization, integrated with a Django-based web interface for real-time prediction.
 
-## Features
+## 📑 Table of Contents
 
-- Blood group classification from images
-- CNN-based deep learning model
-- Image preprocessing (resizing, normalization, denoising, segmentation)
-- Hyperparameter tuning using Firefly Optimization
-- Django web interface for prediction
-- Upload image and get instant result
-- Sample test images included
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Prerequisites](#prerequisites)
+- [Setup Instructions](#setup-instructions)
+  - [Backend](#backend)
+- [Running the Application](#running-the-application)
+- [Dataset](#dataset)
+- [Performance Metrics](#performance-metrics)
+- [Troubleshooting](#troubleshooting)
+- [License](#license)
+
+  
+## 🚀 Features
+
+- Automated blood group classification from agglutination images
+- Deep CNN architecture for feature extraction
+- Optimized model performance using Firefly Optimization
+- Robust preprocessing pipeline for noise reduction and segmentation
+- Real-time prediction using Django web interface
+
 
 ## 📁 Project Structure
 
@@ -29,57 +42,86 @@ Deep learning-based blood group classification from agglutination images using C
 ├── requirements.txt
 └── README.md
 ```
----
+
 
 ## ⚙️ Prerequisites
 
 Ensure the following are installed on your system:
-- Python 3.x
-- pip
-- Virtual environment (optional but recommended)
 
+- Python 3.x
+- pip (Python package manager)
+- Required libraries: NumPy, OpenCV, Scikit-learn, Keras, TensorFlow, Matplotlib, Django
+- Virtual environment (optional but recommended)
 ---
 
-## Setup Instructions
-
+## 🛠️ Setup Instructions
 ### Backend (Django)
 
-1. Clone the repository:
-
-
-2. Navigate to project folder:
+1. Open a terminal and navigate to the project directory:
 ```
 cd Blood-Group-Detection-DeepLearning
  ```
 
-4. Install dependencies:
+2. Install dependencies:
 ```
 pip install -r requirements.txt
 ```
 
 ---
 
-## Running the Application
+## 🗄️ Database Setup
+
+If using XAMPP for MySQL:
+
+1. Open XAMPP Control Panel  
+2. Start Apache and MySQL services  
+3. Ensure MySQL is running  
+4. Update database credentials in Django settings if required  
+
+Note: If using SQLite, this step can be skipped.
+
+## ▶️ Running the Application
 
 1. Start the Django server:
    ```
    python manage.py runserver
    ```
 3. Open browser:
-   ```
-   (http://127.0.0.1:8000/)
+    ```
+   http://127.0.0.1:8000/
    ```
 5. Upload an image and get prediction.
 
-## Model Details
+## 📈 Performance Metrics
+ ```
+- Accuracy: 98%
+- Precision: 98.68%
+- Recall: 98.07%
+- F1-score: 98.32%
+  ```
 
-- Model: Convolutional Neural Network (CNN)
-- Optimization: Firefly Optimization Algorithm
-- Input size: 32x32 images
-- Classes: A, B, AB, O
-- Framework: TensorFlow / Keras
+ ## 📊 Dataset
+
+- Contains agglutination images of blood samples
+- Approximately 200+ images
+- Four classes: A, B, AB, O
+- Only sample images are included in this repository
 
 ---
+ ## 🧠 Model Details
+```
+- Model: Convolutional Neural Network
+- Input size: 32×32 images
+- Classes: A, B, AB, O
+- Optimization: Firefly Optimization Algorithm
+- Framework: TensorFlow / Keras
+```
+## 🛠️ Troubleshooting
+
+- Ensure all dependencies are installed correctly
+- Check if the correct Python version is used
+- Verify model files are present in the model folder
+- Make sure the Django server is running before accessing the application
 
 ## Future Scope
 
@@ -88,6 +130,8 @@ pip install -r requirements.txt
 - Mobile application deployment
 - Larger dataset for improved accuracy
 
-## License
+  This system reduces dependency on manual laboratory interpretation and demonstrates the potential of AI in medical image analysis.
+
+## 📄 License
 
 This project is for educational purposes.
