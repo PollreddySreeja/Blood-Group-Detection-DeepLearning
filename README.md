@@ -21,9 +21,9 @@ This project presents an end-to-end deep learning system for automated blood gro
 
 - Automated blood group classification from agglutination images
 - Deep CNN architecture for feature extraction
-- Optimized model performance using Firefly Optimization
-- Robust preprocessing pipeline for noise reduction and segmentation
-- Real-time prediction using Django web interface
+- Optimized model performance using Firefly Optimization Algorithm
+- Image preprocessing including resizing, normalization, and segmentation
+- Real-time prediction using a Django web interface
 
 
 ## 📁 Project Structure
